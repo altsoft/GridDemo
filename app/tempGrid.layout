@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="361px" prefWidth="847px"/>
+  <ModelGrid cursor="0" data="owners_1" name="modelGrid" parent="view" prefHeight="340px" prefWidth="820px">
+    <AnchorsPaneConstraints height="340px" left="20px" right="7px" top="10px"/>
+    <ModelGridColumn field="name" name="colName" title="colName" width="807px">
+      <ModelFormattedField format=""/>
+    </ModelGridColumn>
+  </ModelGrid>
+</layout>
