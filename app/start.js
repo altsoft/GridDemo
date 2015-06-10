@@ -5,8 +5,8 @@
 // this === global
 (function () {
     function ready() {
-        P.require(['tempGridScriptData'], function(){
-            var m = new tempGridScriptData();
+        P.require(['MasterDetail'], function(){
+            var m = new MasterDetail();
             m.show();
         }, function(e){
             P.Logger.severe(e);

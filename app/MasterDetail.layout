@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><layout title="" view="view">
+  <AnchorsPane background="#ffffff" cursor="0" name="view" prefHeight="426px" prefWidth="626px"/>
+  <ModelGrid cursor="0" data="owners" name="modelMaster" parent="view" prefHeight="170px" prefWidth="610px">
+    <AnchorsPaneConstraints height="170px" left="10px" right="6px" top="10px"/>
+    <ServiceGridColumn name="colService"/>
+    <ModelGridColumn field="name" name="colName" title="colName" width="575px">
+      <ModelFormattedField/>
+    </ModelGridColumn>
+  </ModelGrid>
+  <ModelGrid cursor="0" data="owners" field="cursor.pets" name="modelDetail" parent="view" prefHeight="230px" prefWidth="610px">
+    <AnchorsPaneConstraints height="230px" left="10px" right="6px" top="190px"/>
+    <ServiceGridColumn name="colService"/>
+    <ModelGridColumn field="name" name="colName" title="colName" width="575px">
+      <ModelFormattedField/>
+    </ModelGridColumn>
+  </ModelGrid>
+</layout>
